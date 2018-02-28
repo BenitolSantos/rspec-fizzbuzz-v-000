@@ -1,20 +1,19 @@
 def fizzbuzz(int)
   if int % 5 == 0
     if int % 3 == 0
-      return "Fizzbuzz"
+      "Fizzbuzz"
     else int % 3 != 0
-      return "Buzz"
+      "Buzz"
     end
-  else int % 5 != 0
+  else 
     if int % 3 == 0
-      return "Fizz"
-    else int % 3 != 0
-      return nil
+      "Fizz"
+    else 
     end
   end
 end
 
-fizzbuzz(3)
-fizzbuzz(5)
-fizzbuzz(15)
-fizzbuzz(4)
+fizz_3 = fizzbuzz(3)
+fizz_5 = fizzbuzz(5)
+fizz_15 = fizzbuzz(15)
+fizz_4 = fizzbuzz(4)
