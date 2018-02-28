@@ -1,5 +1,4 @@
 def fizzbuzz(int)
-
   if int % 5 == 0
     if int % 3 == 0
       "Fizzbuzz"
@@ -17,3 +16,4 @@ end
 fizzbuzz(3)
 fizzbuzz(5)
 fizzbuzz(15)
+fizzbuzz(4)
